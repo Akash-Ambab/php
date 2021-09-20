@@ -1,7 +1,5 @@
 <?php
 
-session_start();
-
 class DataValidation {
     function isDataEmpty($fname, $lname, $email, $password) {
         $name = "/^[a-zA-Z ]+$/";

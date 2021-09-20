@@ -1,8 +1,6 @@
 <?php
 
     include "validation.php";
-    session_start();
-
 
     $fname = $_POST['fname'];
     $lname = $_POST['lname'];
@@ -10,9 +8,7 @@
     $password = $_POST['pass'];
 
     class User extends DataValidation {
-        function greet() {
-            echo "Hello";
-        }
+        
     }
 
     $obj = new User();
