@@ -12,7 +12,7 @@ $("#testForm").on("submit", function(e) {
 
                 setTimeout(function(){
                     window.location.href = "hello.php";
-                }, 3500);
+                }, 1500);
             }
             else {
                 $("#msg").show();
