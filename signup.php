@@ -8,10 +8,12 @@
     $password = $_POST['pass'];
 
     class User extends DataValidation {
-        
+        function __constuct() {
+            parent::isDataEmpty($fname, $lname, $email, $password);
+        }
     }
 
-    $obj = new User();
+    $obj = new User;
     $obj -> isDataEmpty($fname, $lname, $email, $password);
 
 

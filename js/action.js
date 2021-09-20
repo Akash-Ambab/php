@@ -11,8 +11,8 @@ $("#testForm").on("submit", function(e) {
                 $("#testForm")[0].reset();
 
                 setTimeout(function(){
-                    window.location.href = "hello.php";
-                }, 1500);
+                    window.location.href = "../hello.php";
+                }, 1000);
             }
             else {
                 $("#msg").show();
